@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.AU" name="Advanced Utilities" version="0.9.0~alpha" provider-name="Wintermute0110">
+    <requires>
+        <!-- 2.25.0 Krypton 17.x -->
+        <import addon="xbmc.python" version="2.25.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Kodi meets DOOM!</summary>
+        <description lang="en">Utilities for Kodi developers.</description>
+        <platform>all</platform>
+        <license>GNU General Public License version 2</license>
+        <email>wintermute0110@gmail.com</email>    
+        <forum></forum>
+        <website>https://github.com/Wintermute0110/plugin.program.AU/wiki</website>
+        <source>https://github.com/Wintermute0110/plugin.program.AU/</source>
+        <assets>
+            <icon>media/au-icon.png</icon>
+            <fanart>media/au-fanart.jpg</fanart>
+            <screenshot>media/screenshot-01.jpg</screenshot>
+            <screenshot>media/screenshot-02.jpg</screenshot>
+            <screenshot>media/screenshot-03.jpg</screenshot>
+        </assets>
+        <news>See changelog.txt for information.</news>
+    </extension>
+</addon>

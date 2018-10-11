@@ -1,0 +1,5 @@
+[B]Advanced Utilities | version 0.9.0 | xx October 2018[/B]
+
+ INFO Initial release.
+
+ WIP  Show all Kodi JSON-RPC API calls.
